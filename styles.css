@@ -1,41 +1,52 @@
 
 
 header {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 nav {
-  display: flex;
+
+  display:flex;
+  flex-direction: row;
   justify-content: space-around;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  background-color: rgb(194, 192, 192);
+  align-items: center;
+  background-color: black;
+  color: whitesmoke
+  
 }
 
-nav p{
+nav h1 {
+  font-style: italic;
+  font-size: xx-large;
+}
+
+nav p a{
+   
+   color: whitesmoke;
    font-size: x-large;
 }
 
-h2, h3, h4, p {
 
-  margin: 0px;
-  padding: 10px
-
-}
-
-h2 {
-  display: block;
-  
-
-}
-
-h4 {
-  display: block;
-
-}
 
 .mission {
-
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: stretch;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#fig1, #fig2, #fig3, #fig4 {
+  
+  vertical-align: middle;
+  text-align: center;
+  background-color: darkgrey;
+  margin-bottom: 20px;
+}
