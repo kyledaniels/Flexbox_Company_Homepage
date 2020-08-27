@@ -22,12 +22,31 @@ nav p a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  color: whitesmoke;
+  font-style: italic;
+  background-image: url("./images/aleksandar-pavlovic-kDNDBLDBtLo-unsplash.jpg");
+  background-size: 1200px;
 }
 
 .portfolio {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  
+ 
 }
 
+
+
+h4 {
+  text-shadow: teal;
+  font-size: larger;
+
+}
+
+.our-team {
+  background-image: url("./images/aleksandar-pavlovic-kDNDBLDBtLo-unsplash.jpg");
+  background-size: 1200px;
+  color: whitesmoke;
+  font-size: x-large;
+}
