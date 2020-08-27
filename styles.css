@@ -33,10 +33,11 @@ nav p a{
   flex-direction: row;
   justify-content: space-evenly;
   
- 
 }
 
-
+h1 {
+  font-size: xx-large;
+}
 
 h4 {
   text-shadow: teal;
@@ -47,13 +48,60 @@ h4 {
 .our-team {
   background-image: url("./images/aleksandar-pavlovic-kDNDBLDBtLo-unsplash.jpg");
   background-size: 1200px;
-  color: whitesmoke;
-  font-size: small;
+  
 }
 
-img {
+.img2 {
+  height: 200px;
+  width:  200px;
+  margin-right: 20px;
+}
+
+#fig1 {
+
+  display: flex;
+  flex-direction: row;
   
+
+}
+
+#fig2 {
+
+  display: flex;
+  flex-direction: row;
+  ;
+  
+}
+
+.fig-section {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+#img1 {
   width: 200px;
   height: 200px;
+  margin-right: 20px;
+  margin-left: 0px;
 
+}
+
+figcaption {
+  font-size: larger;
+  font-weight: bolder;
+  font-style: italic;
+  color: whitesmoke;
+}
+
+footer span {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: large;
+  font-style: italic;
+  background-color: black;
+  color: whitesmoke
 }
