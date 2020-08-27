@@ -48,6 +48,8 @@ h4 {
 .our-team {
   background-image: url("./images/aleksandar-pavlovic-kDNDBLDBtLo-unsplash.jpg");
   background-size: 1200px;
+  background-blend-mode: screen;
+
   
 }
 
@@ -90,7 +92,7 @@ h4 {
 }
 
 figcaption {
-  font-size: larger;
+  font-size: large;
   font-weight: bolder;
   font-style: italic;
   color: whitesmoke;
